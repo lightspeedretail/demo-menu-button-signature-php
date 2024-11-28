@@ -1,0 +1,12 @@
+{
+    "require": {
+        "php": ">=7.4",
+        "ext-sodium": "*",
+        "ext-openssl": "*",
+        "firebase/php-jwt": "^6.10",
+        "guzzlehttp/guzzle": "^7.9",
+        "phpfastcache/phpfastcache": "^9.2",
+        "guzzlehttp/psr7": "^2.7",
+        "paragonie/sodium_compat": ">= 1"
+    }
+}
