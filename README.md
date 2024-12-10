@@ -15,7 +15,7 @@ To test this demo application on your own local machine you can follow these ste
 3. Run the local test server
 
     ```bash
-    $ php -S localhost:8000`
+    $ php -S localhost:8000
     ```
 4. In a web browser, log into your Lightspeed R-Series account and navigate to the Menu Buttons section of the Settings menu
 5. Create a button of type "Open Web Page" and set the URL to `http://localhost:8000/`
