@@ -13,7 +13,7 @@ require_once('vendor/autoload.php');
 const LIGHTSPEED_JWKS_ENDPOINT = 'https://cloud.lightspeedapp.com/.well-known/jwks';
 
 // Rebuild the request URL
-$requestUrl = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on')  ? 'https://' : 'http://'
+$requestUrl = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on'  ? 'https://' : 'http://')
     . $_SERVER['HTTP_HOST']
     // ensure the path starts with a slash
     . '/' . ltrim($_SERVER['REQUEST_URI'], '/');
