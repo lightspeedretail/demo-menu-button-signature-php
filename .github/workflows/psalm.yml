@@ -2,9 +2,9 @@ name: Static Code Security Analysis (psalm)
 
 on:
   push:
-    branches: [ master, main ]
+    branches: [ master, main, demo ]
   pull_request:
-    branches: [ master, main ]
+    branches: [ master, main, demo ]
 
 jobs:
   analyze:
